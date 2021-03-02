@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-go-app
+  description: Lorem ipsum
+  annotations: 
+    github.com/project-slug: kielosz/test-go-app
+    backstage.io/source-ref: "https://github.com/kielosz/test-go-app"
+    backstage.io/techdocs-ref: url:https://github.com/kielosz/test-go-app
+    backstage.io/github-actions-id: https://github.com/kielosz/test-go-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: John Smith
